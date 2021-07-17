@@ -1,0 +1,21 @@
+{
+  "name": "node-lab",
+  "version": "1.0.0",
+  "description": "sentry-projects-node-lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js localhost 8080"
+  },
+  "dependencies": {
+    "@sentry/node": "^6.9.0",
+    "@sentry/tracing": "^6.9.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": []
+}

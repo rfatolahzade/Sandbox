@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-// const usersRouter = require("./routes/users");
 const Sentry = require("@sentry/node");
 const Tracing = require("@sentry/tracing");
 
@@ -34,7 +33,6 @@ app.use("/POW", function (req, res) {
 app.get("/Hello", function rootHandler(req, res) {
   res.end("Hello world!!");
 });
-// app.use("/users", usersRouter);
 app.get("/Exception", function mainHandler(req, res) {
   throw new Error("An exception occured!");
 });

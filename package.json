@@ -1,7 +1,7 @@
 {
   "name": "node-lab",
   "version": "1.0.0",
-  "description": "sentry-projects-node-lab",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js localhost 8080"

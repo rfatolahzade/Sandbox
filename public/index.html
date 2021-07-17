@@ -10,10 +10,7 @@
       function POW() {
         let num1 = document.getElementById("Num1").value;
         let num2 = document.getElementById("Num2").value;
-        axios.get("/POW?a=" + num1 + "&b=" + num2).then((result) => {
-          let resultInput = document.getElementById("Result");
-          resultInput.value = result.data;
-        });
+        CallPow(num1, num2); 
       }
     </script>
   </head>

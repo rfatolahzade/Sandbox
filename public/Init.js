@@ -14,4 +14,4 @@ function CallPow(num1, num2) {
   });
 }
 
-CallPow(2, 3);
+// CallPow(2, 3);
